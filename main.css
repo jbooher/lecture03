@@ -1,16 +1,16 @@
-main + a {
-  text-transform: uppercase;
+a:first-child {
+  color: chartreuse;
+  text-decoration: none;
 }
 
-main > a {
-  color: goldenrod;
-  font-size: 2rem;
+a:last-child {
+  color: burlywood;
 }
 
-.example-grandchild {
-  color: red;
+a:nth-last-child(2) {
+  color: crimson;
 }
 
-a.example-grandchild#reddit {
-  font-size: 3rem;
+a:nth-child(3){
+  color: coral;
 }
